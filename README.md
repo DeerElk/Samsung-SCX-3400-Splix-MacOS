@@ -1,6 +1,6 @@
-# Samsung SCX-3405W SpliX Driver for macOS
+# Samsung SCX-3400 Series SpliX Driver for macOS
 
-Unofficial SpliX-based CUPS driver for **Samsung SCX-3405W** on modern macOS with Apple Silicon.
+Unofficial SpliX-based CUPS driver for **Samsung SCX-3400 Series** on modern macOS with Apple Silicon.
 
 The driver was successfully tested with a **Samsung SCX-3405W** connected via USB.
 
