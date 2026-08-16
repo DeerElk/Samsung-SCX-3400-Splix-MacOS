@@ -141,15 +141,15 @@ fi
 # ------------------------------------------------------------
 
 EXISTING_QUEUE="$(
-    lpstat -v 2>/dev/null |
+    LC_ALL=C lpstat -v 2>/dev/null |
     awk -F': ' '
         /SCX-3400/ {
             queue=$1
-            sub(/^.* /, "", queue)
+            sub(/^device for /, "", queue)
             print queue
             exit
         }
-    '
+    ' || true
 )"
 
 if [[ -n "${EXISTING_QUEUE:-}" ]]; then
@@ -180,13 +180,13 @@ fi
 # ------------------------------------------------------------
 
 DEVICE_URI="$(
-    lpinfo -v 2>/dev/null |
+    LC_ALL=C lpinfo -v 2>/dev/null |
     awk '
         /usb:\/\// && /SCX-3400/ {
             print $2
             exit
         }
-    '
+    ' || true
 )"
 
 if [[ -z "${DEVICE_URI:-}" ]]; then
