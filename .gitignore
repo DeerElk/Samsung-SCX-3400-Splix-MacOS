@@ -1,0 +1,24 @@
+# macOS
+.DS_Store
+
+# Editors
+*.swp
+*.swo
+*~
+
+# Temporary/generated print data
+*.qpdl
+
+# Build directories
+build/
+optimized/
+source/splix-2.0.2/optimized/
+
+# Compiled objects and dependency files
+*.o
+*.d
+*.a
+
+# JBIG-KIT test binaries
+source/jbigkit-2.1/libjbig/tstcodec
+source/jbigkit-2.1/libjbig/tstcodec85
