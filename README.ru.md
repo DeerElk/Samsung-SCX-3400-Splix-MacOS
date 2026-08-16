@@ -1,6 +1,6 @@
-# Драйвер Samsung SCX-3405W SpliX для macOS
+# Драйвер Samsung SCX-3400 Series SpliX для macOS
 
-Неофициальный CUPS-драйвер на основе **SpliX** для принтера **Samsung SCX-3405W** на современных версиях macOS с Apple Silicon.
+Неофициальный CUPS-драйвер на основе **SpliX** для принтеров **Samsung SCX-3400 Series** на современных версиях macOS с Apple Silicon.
 
 Драйвер успешно протестирован на **Samsung SCX-3405W**, подключённом по USB.
 
