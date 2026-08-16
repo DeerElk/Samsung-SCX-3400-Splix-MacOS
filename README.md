@@ -42,8 +42,8 @@ Samsung SCX-3400 Series
 Clone the repository:
 
 ```bash
-git clone https://github.com/DeerElk/Samsung-SCX-3400-Splix-MacOS.git
-cd Samsung-SCX-3400-Splix-MacOS
+git clone https://github.com/DeerElk/Samsung-SCX-3400-Series-SpliX-Driver-macOS.git
+cd Samsung-SCX-3400-Series-SpliX-Driver-macOS
 ```
 
 Connect the printer and run:
