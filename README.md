@@ -213,11 +213,37 @@ sudo tail -100 /var/log/cups/error_log
 
 ### Confirmed
 
-- **Samsung SCX-3405W** — tested and working on Apple Silicon macOS via USB.
+- **Samsung SCX-3405W** — tested and working on macOS with Apple Silicon via USB.
 
-The printer identifies itself to macOS/CUPS as **Samsung SCX-3400 Series**.
+### SCX-3400 Series models
 
-Other printers may be compatible with SpliX 2.0.2, but they have not been tested as part of this project.
+This driver targets the Samsung SCX-3400 printer family. The following models are part of the SCX-3400 Series and may use compatible printing hardware/protocols:
+
+- Samsung SCX-3400
+- Samsung SCX-3400F
+- Samsung SCX-3400W
+- Samsung SCX-3405
+- Samsung SCX-3405F
+- Samsung SCX-3405FW
+- Samsung SCX-3405W
+
+Regional variants include:
+
+- SCX-3400/DCS
+- SCX-3400/HYP
+- SCX-3400A4
+- SCX-3400FA4
+- SCX-3400/HYPA4
+- SCX-3405A4
+- SCX-3405FA4
+- SCX-3405FWA4
+- SCX-3405WA4
+- SCX-3405FW/TA4
+- SCX-3405FW/TND
+- SCX-3405F/EXP
+- SCX-3405F/EXPA
+
+> **Important:** Only the Samsung SCX-3405W has been tested with this project. Compatibility with other SCX-3400 Series models is not guaranteed.
 
 ## Credits and licensing
 
