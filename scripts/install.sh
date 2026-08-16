@@ -142,12 +142,11 @@ fi
 
 EXISTING_QUEUE="$(
     lpstat -v 2>/dev/null |
-    awk '
+    awk -F': ' '
         /SCX-3400/ {
-            line=$0
-            sub(/^device for /, "", line)
-            sub(/:.*/, "", line)
-            print line
+            queue=$1
+            sub(/^.* /, "", queue)
+            print queue
             exit
         }
     '
